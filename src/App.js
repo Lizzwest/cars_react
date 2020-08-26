@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './westie.png';
 import './App.css';
 import Westie from "./Westie"
+import Bug from "./Bug"
+import Mustang from "./Mustang"
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,8 @@ function App() {
         </a>
       </header>
       <Westie />
+      <Bug />
+      <Mustang />
     </div>
   );
 }
