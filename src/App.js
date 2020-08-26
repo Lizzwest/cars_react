@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './westie.png';
 import './App.css';
-
+import Westie from "./Westie"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Edit <code>src/App.js</code> and save to reload. */}
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://westfaliasforsale.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         <br />
+         <br />
+         <br />
+         <br />
+          Buy A Westfalia
         </a>
       </header>
+      <Westie />
     </div>
   );
 }
